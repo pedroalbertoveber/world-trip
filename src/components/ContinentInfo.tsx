@@ -13,11 +13,19 @@ export function ContinentInfo({
   moreInfo = false,
 }: ContinentInfoProps) {
   return (
-    <Flex flexDir={'column'} align={'center'}>
-      <Text fontWeight={'semibold'} fontSize={'3rem'} color="yellow.500">
+    <Flex flexDir={'column'} align={['flex-start', 'center']}>
+      <Text
+        fontWeight={['semibold']}
+        fontSize={['1.125rem', '3rem']}
+        color="yellow.500"
+      >
         {count}
       </Text>
-      <Text fontSize={'1.25rem'} fontWeight={'bold'} color="gray.700">
+      <Text
+        fontSize={['1.125rem', '1.25rem']}
+        fontWeight={['medium', 'semibold']}
+        color="gray.700"
+      >
         {label} {moreInfo && <Icon as={FiInfo} color="gray.100" />}
       </Text>
     </Flex>

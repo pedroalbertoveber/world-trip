@@ -9,14 +9,14 @@ import { CityCard } from './CityCard'
 
 export function Cities() {
   return (
-    <Box width={'100%'} maxWidth="1160px" mx="auto">
-      <Text fontSize={'2.25rem'} fontWeight="medium">
+    <Box width={'100%'} maxWidth="1160px" mx="auto" px={['1rem', '0']}>
+      <Text fontSize={['1.5rem', '2.25rem']} fontWeight="medium">
         Cidades +100
       </Text>
       <Flex
         width={'100%'}
-        align="flex-start"
-        justify={'space-between'}
+        align={['center', 'flex-start']}
+        justify={['center', 'space-between']}
         py={'2rem'}
         flexWrap="wrap"
       >

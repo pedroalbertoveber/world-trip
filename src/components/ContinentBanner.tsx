@@ -5,7 +5,7 @@ export function ContinetBanner() {
     <Flex
       as="section"
       width={'100%'}
-      height={'31.25rem'}
+      height={['150px', '31.25rem']}
       bgRepeat="no-repeat"
       bgSize={'cover'}
       bgImage={'url("/images/LondonBg.png")'}
@@ -18,7 +18,13 @@ export function ContinetBanner() {
         maxWidth={'1160px'}
         mx="auto"
       >
-        <Text fontSize={'3rem'} fontWeight={'semibold'} color={'gray.50'}>
+        <Text
+          fontSize={['1.75rem', '3rem']}
+          fontWeight={'semibold'}
+          color={'gray.50'}
+          textAlign={['center', 'left']}
+          width={'100%'}
+        >
           Europa
         </Text>
       </Box>

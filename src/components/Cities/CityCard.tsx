@@ -15,7 +15,7 @@ export function CityCard({ bgImage, country, flag, name }: CityCardProps) {
       borderColor={'yellow.500'}
       borderRadius={6}
       flexDir="column"
-      mb={'3rem'}
+      mb={['1.25rem', '3rem']}
     >
       <ChakraImage as={Image} src={bgImage} width={'16rem'} />
       <Flex
