@@ -1,4 +1,4 @@
-import { Box, Flex, Image as ChakraImage, Text, VStack } from '@chakra-ui/react'
+import { Box, Flex, Image as ChakraImage, Text } from '@chakra-ui/react'
 import Image from 'next/image'
 import Airplane from '../assets/Airplane.svg'
 
