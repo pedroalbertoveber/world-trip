@@ -23,7 +23,7 @@ export function Carrousel() {
         cursor={'pointer'}
       />
       <Flex flexDir={'column'} align="center" gap={'1rem'}>
-        <Link href={'/europe'}>
+        <Link href={'/continents/europe'}>
           <Text
             as={'h2'}
             display="block"
