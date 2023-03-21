@@ -7,12 +7,12 @@ export function GoBackButton() {
     <Link href={'/'}>
       <Icon
         as={IoIosArrowBack}
-        boxSize={8}
+        boxSize={[4, 8]}
         color="gray.300"
         cursor={'pointer'}
         position={'absolute'}
         style={{ transform: 'translateY(-50%)' }}
-        left={'calc((100% - 1160px) / 2)'}
+        left={['16px', 'calc((100% - 1160px) / 2)']}
         _hover={{ color: 'gray.700', transition: 'all .2s' }}
       />
     </Link>
