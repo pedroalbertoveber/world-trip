@@ -5,7 +5,7 @@ import Logo from '../assets/Logo.svg'
 export function Header() {
   return (
     <Heading
-      height="6.25rem"
+      height={['3.125rem', '6.25rem']}
       display={'flex'}
       alignItems={'center'}
       justifyContent={'center'}
@@ -18,7 +18,7 @@ export function Header() {
         alignItems={'center'}
         justifyContent={'center'}
       >
-        <ChakraImage as={Image} src={Logo} height={'2.875rem'} />
+        <ChakraImage as={Image} src={Logo} height={['1.25rem', '2.875rem']} />
       </Flex>
     </Heading>
   )

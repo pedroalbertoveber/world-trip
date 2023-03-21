@@ -10,10 +10,10 @@ export default function Home() {
       <Categories />
       <Box width={'100%'} maxWidth="1180px" mx={'auto'}>
         <Text
-          fontSize={'2.25rem'}
+          fontSize={['1.25rem', '2.25rem']}
           fontWeight="medium"
           textAlign={'center'}
-          py="3.25rem"
+          py={['1.25rem', '3.25rem']}
         >
           Vamos nessa? <br /> Então escolha seu continente
         </Text>

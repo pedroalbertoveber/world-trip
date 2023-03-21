@@ -9,13 +9,16 @@ import { CategoryItem } from './CategoryItem'
 export function Categories() {
   return (
     <>
-      <Box width={'100%'} py="5rem">
+      <Box width={'100%'} py={['2.25rem', '2.25rem', '5rem']}>
         <Flex
           width={'100%'}
-          maxWidth="1160px"
+          maxWidth={['none', 'none', '1160px']}
           mx={'auto'}
           align="center"
-          justify={'space-around'}
+          flexWrap={['wrap', 'wrap', 'nowrap']}
+          justify={['space-evenly', 'space-around']}
+          gap={['2rem', '2rem', '0']}
+          padding={['1rem', '1rem', '0']}
         >
           <CategoryItem title="vida noturna" icon={BiDrink} />
           <CategoryItem title="praia" icon={TbBeach} />

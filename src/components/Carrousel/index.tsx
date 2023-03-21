@@ -27,7 +27,7 @@ export function Carrousel() {
           <Text
             as={'h2'}
             display="block"
-            fontSize={'3rem'}
+            fontSize={['1.25rem', '3rem']}
             fontWeight="bold"
             color={'gray.50'}
             _hover={{ color: 'yellow.500', transition: 'all 0.2s' }}
@@ -40,7 +40,7 @@ export function Carrousel() {
           display="block"
           color={'gray.100'}
           fontWeight="bold"
-          fontSize={'1.5rem'}
+          fontSize={['0.875rem', '1.5rem']}
         >
           O continente mais antigo.
         </Text>
